@@ -25,9 +25,9 @@ module.exports = {
     },
   ],
   author: {
-    name: 'kingeunji-dev',
+    name: '킹은지 개발 블로그',
     photo: '/photo.jpg',
-    bio: '매일매일 느끼고 공부한 것을 기록해요 초보 프론트엔드 개발자',
+    bio: '초보 프론트엔드 개발자 😇',
     contacts: {
       email: '',
       facebook: '#',

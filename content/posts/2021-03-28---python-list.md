@@ -8,7 +8,7 @@ category: 'python'
 tags:
   - 'python'
   - 'til'
-description: '2회차의 프로그래밍 기초 수업듣기 '
+description: '파이썬의 리스트, 튜플, 딕셔너리의 개념과 사용법을 알아보자'
 socialImage: '/media/image-2.jpg'
 ---
 
@@ -153,6 +153,5 @@ student_sim.get('학번')
 
 ```python
 student_sim.items()
-
 # dict_items([('학번', 2021), ('이름', '심은지'), ('학과', '미디어경영학과'), ('연락처', '010-1111-2222')])
 ```

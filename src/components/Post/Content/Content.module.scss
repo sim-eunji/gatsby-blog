@@ -7,15 +7,28 @@
   margin: 0 auto;
 
   &__title {
-    font-size: $typographic-base-font-size;
+    font-size: $typographic-base-font-size * 1.75;
     max-width: $layout-post-width;
     margin-left: auto;
     margin-right: auto;
     font-weight: 600;
     text-align: center;
+    position: relative;
+
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0);
+
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0.3rem;
+      left: 0;
+      z-index: -1;
+      height: 0.5em;
+      background-color: #ffe3e3;
+    }
   }
 
   &__body {

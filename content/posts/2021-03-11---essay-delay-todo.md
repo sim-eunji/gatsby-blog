@@ -8,8 +8,7 @@ category: 'essay'
 tags:
   - 'essay'
   - '시간관리'
-description: '나는 왜 할 일을 미룰까? 내 시간을 내가 제어하기.  
-할 일을 미루는 사람의 특징, 자기 통제력 기르기, 시간 관리의 원인에 대해서 '
+description: '나는 왜 할 일을 미룰까? 시간 관리의 원인에 대해서 '
 socialImage: '/media/image-2.jpg'
 ---
 

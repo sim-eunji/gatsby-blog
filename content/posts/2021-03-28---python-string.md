@@ -1,6 +1,6 @@
 ---
 title: 파이썬 - 문자열 활용 메서드
-date: '2021-03-28T01:30:37.121Z'
+date: '2021-03-28T03:30:37.121Z'
 template: 'post'
 draft: false
 slug: 'python-string'
@@ -13,7 +13,9 @@ description: '파이썬의 다양한 문자열 활용 '
 socialImage: '/media/image-2.jpg'
 ---
 
-### 2. 문자열
+<img width="665" alt="image" src="https://user-images.githubusercontent.com/71164350/112730100-fa1a3f80-8f72-11eb-9eb3-a42ce6b9fe6d.png">
+
+### 1. 문자열
 
 문자열은 작은따옴표로 묶어 출력한다.
 
@@ -53,8 +55,31 @@ ss[3:]
 
 <p style="font-size: 18px; font-weight: bold;">(3) 문자열 편집/치환 </p>
 
+- `s.strip()` : 좌우 공백 삭제
+- `s.rstrip()` : 오른쪽 공백 삭제
+- `s.lstrip()` : 왼쪽 공백 삭제
+- `s.replace('기존문자', '바꿀문자')` : 문자열에서 기존 문자를 바꿀 문자로 치환한다.
+
 <p style="font-size: 18px; font-weight: bold;">(4) 문자열 분리/결합 </p>
+
+- `s.split()` : 공백으로 분리
+- `s.splitlines()` : 라인 단위로 분리
+- `s.join(new_str)` : 문자로 결합
+- `s.split(':', 2)` : ':'를 기준으로 2번 분리
+- `s.rsplit(':', 1)` : ':'를 기준으로 오른쪽부터 한 번만 분리
 
 <p style="font-size: 18px; font-weight: bold;">(5) 문자열 정렬/채우기 </p>
 
+- `s.center()` : 문자열 가운데 정렬 
+- `s.ljust()` : 문자열 왼쪽 정렬
+- `s.rjust()` : 문자열 오른쪽 정렬
+- `s.zfill()` : 오른쪽 정렬, 왼쪽 빈 공간은 0으로 채움
+
 <p style="font-size: 18px; font-weight: bold;">(6) 문자열 구성 파악 </p>
+
+- `s.isdigit()` : 문자열이 숫자인지 아닌지를 판별 true, false 로 반환
+- `s.isalpha()` : 문자열이 문자인지 아닌지를 판별 true, false 로 반환
+- `s.isalnum()` : 글자와 숫자가 섞여있는지 아닌지를 true, false 로 반환
+- `s.islower()` : 전체가 소문자로만 구성되어있는지 아닌지를 true, false 로 반환
+- `s.isupper()` : 전체가 대문자로만 구성되어있는지 아닌지를 true, false 로 반환
+- `s.isspace()` : 공백 문자로만 구성되어있는지 아닌지를 true, false 로 반환
