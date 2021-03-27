@@ -38,6 +38,11 @@
       }
     }
 
+    & table {
+      border-collapse: separate;
+      border-spacing: 3rem 0.5rem;
+    }
+
     & a {
       text-decoration: underline;
     }
