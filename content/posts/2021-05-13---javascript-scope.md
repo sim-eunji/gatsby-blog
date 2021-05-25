@@ -1,6 +1,6 @@
 ---
 title: 스코프란 무엇인가?
-date: '2021-05-32T20:30:37.121Z'
+date: '2021-05-13T20:30:37.121Z'
 template: 'post'
 draft: false
 slug: 'javascript-scope'

@@ -1,6 +1,6 @@
 ---
 title: ES6 이후의 문법
-date: '2021-05-32T15:30:37.121Z'
+date: '2021-05-13T10:30:37.121Z'
 template: 'post'
 draft: false
 slug: 'javascript-es6'
