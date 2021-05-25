@@ -14,9 +14,11 @@
     font-weight: 600;
     @include line-height(1.125);
     @include margin(0.5, 0, 0.5, 0);
+    letter-spacing: -0.5px;
 
     &-link {
       color: $color-base;
+      letter-spacing: -0.5px;
 
       &:hover,
       &:focus {
@@ -27,6 +29,7 @@
 
   &__subtitle {
     color: $color-gray;
+    letter-spacing: -0.5px;
     @include line-height(1);
     @include margin-bottom(1);
   }

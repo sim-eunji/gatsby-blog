@@ -16,22 +16,18 @@ module.exports = {
       path: '/',
     },
     {
-      label: 'Javascript Guide',
-      path: '/pages/javascript',
-    },
-    {
       label: 'About me',
       path: '/pages/about',
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts',
+      label: 'Javascript Guide',
+      path: '/pages/javascript',
     },
   ],
   author: {
     name: '킹은지 개발 블로그',
     photo: '/photo.jpg',
-    bio: '초보 프론트엔드 개발자 😇',
+    bio: '코딩하는 햄스터 🐹',
     contacts: {
       email: '',
       facebook: '#',
