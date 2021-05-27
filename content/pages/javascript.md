@@ -27,3 +27,4 @@ SPA 개념을 알게되면서 자바를 버리고 자바스크립트를 진심�
 - [스코프란 무엇인가?](https://www.kingeunji.dev/posts/javascript-scope)
 - [스코프의 작동방식, 렉시컬 스코프(Lexical Scope)](https://www.kingeunji.dev/posts/javascript-lexical-scope)
 - [변수의 유효범위와 클로저](https://www.kingeunji.dev/posts/javascript-closure)
+- [this 에 대한 모든 것.](https://www.kingeunji.dev/posts/javascript-this)
